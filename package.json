@@ -1,5 +1,5 @@
 {
-  "name": "@syukurilexs/config",
+  "name": "@syukurilexs/nestjs-config",
   "version": "1.0.0",
   "description": "Config Module",
   "author": "Syukur Kassim <syukurilexs@gmail.com>",
