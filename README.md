@@ -6,7 +6,7 @@
   </a>
 </div>
 
-<h3 align="center">NestJS Custom Config Package</h3>
+<h3 align="center">NestJS Custom Config Package (simple config service)</h3>
 
 <div align="center">
   <a href="https://nestjs.com" target="_blank">
@@ -15,9 +15,6 @@
 </div>
 
 ### Installation
-
-1. Clone the repo
-2. Run npm/yarn install
 
 ```bash
 npm install @syukurilexs/nestjs-config
@@ -32,14 +29,14 @@ Import `ConfigModule`:
   imports: [ConfigModule],
   providers: [...],
 })
-export class TheModule {}
+export class AppModule {}
 ```
 
 Inject `ConfigService`:
 
 ```typescript
 @Injectable()
-export class TheService {
+export class YourService {
   constructor(private readonly config: ConfigService) {}
 
   show() {
