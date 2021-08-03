@@ -1,6 +1,10 @@
 {
   "name": "@syukurilexs/nestjs-config",
+<<<<<<< HEAD
   "version": "2.0.0",
+=======
+  "version": "1.1.2",
+>>>>>>> facc7e74156786233becd5fcffb0354b0ed10973
   "description": "Config Module",
   "author": "Syukur Kassim <syukurilexs@gmail.com>",
   "license": "MIT",
