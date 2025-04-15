@@ -33,10 +33,10 @@
   },
   "bugs": "https://github.com/syukurilexs/nestjs-config.git",
   "peerDependencies": {
-    "@nestjs/common": "^9.0.0"
+    "@nestjs/common": "^10.4.16"
   },
   "dependencies": {
-    "@nestjs/common": "^9.0.0",
+    "@nestjs/common": "^10.4.16",
     "dotenv": "^16.0.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.6.0"
